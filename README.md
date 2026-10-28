@@ -3,7 +3,7 @@
 > **Semantic + LRU + TTL cache for LLM prompts. Avoid re-paying for identical prompts.**
 > Zero dependencies. One file. Works with any LLM provider.
 
-[![Python versions](https://img.shields.io/pypi/pyversions/tiny-prompt-cache.svg)](https://pypi.org/project/tiny-prompt-cache/)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://github.com/hussain-alsaibai/tiny-prompt-cache#install)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen.svg)](prompt_cache.py)
 
