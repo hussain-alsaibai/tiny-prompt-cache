@@ -28,7 +28,7 @@ keywords = ["llm", "cache", "semantic", "prompt", "tokens", "ai", "embedding"]
 dev = ["pytest", "pytest-asyncio"]
 
 [tool.setuptools]
-py-modules = ["prompt_cache"]
+py-modules = ["prompt_cache", "tiny_prompt_cache"]
 
 [tool.pytest.ini_options]
 testpaths = ["."]

@@ -13,4 +13,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - run: python -m pytest test_*.py -v || python -c "import prompt_cache; print('OK')"
+      - run: python -m pytest test_prompt_cache.py test_tiny_prompt_cache.py -v
