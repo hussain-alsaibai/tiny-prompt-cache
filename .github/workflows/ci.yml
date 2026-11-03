@@ -13,4 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - run: python -m pytest test_prompt_cache.py test_tiny_prompt_cache.py -v
+      - name: Install
+        run: pip install -e . pytest
+      - name: Run tests
+        run: python -m pytest test_prompt_cache.py test_tiny_prompt_cache.py -v
