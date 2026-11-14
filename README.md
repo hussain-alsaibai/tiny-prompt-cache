@@ -54,7 +54,8 @@ Prompt arrives
 ## Installation
 
 ```bash
-pip install tiny-prompt-cache
+# From GitHub (recommended -- not yet on PyPI)
+pip install git+https://github.com/hussain-alsaibai/tiny-prompt-cache.git
 ```
 
 Or copy `prompt_cache.py` directly:
