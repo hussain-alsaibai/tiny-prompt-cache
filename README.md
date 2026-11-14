@@ -8,7 +8,8 @@
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen.svg)](prompt_cache.py)
 
 ```bash
-pip install tiny-prompt-cache
+# From GitHub (recommended -- not yet on PyPI)
+pip install git+https://github.com/hussain-alsaibai/tiny-prompt-cache.git
 # or: copy prompt_cache.py into your project
 ```
 
